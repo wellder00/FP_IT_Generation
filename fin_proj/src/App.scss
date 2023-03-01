@@ -1,0 +1,19 @@
+@import '../public/src/style/normalize.scss';
+@import '../public/src/style/varibles.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600&family=Raleway:wght@500&family=Volkhov:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600&family=Volkhov:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;700&family=Volkhov:wght@700&display=swap');
+@import './components/header/header';
+@import './components/button/button';
+
+body {
+  height: 100%;
+  @include Open-Sans-Bold;
+  background-color: #f1f1f1;
+  
+}
+
+._container {
+  max-width: 1624px;
+  margin: 0px auto;  
+}
