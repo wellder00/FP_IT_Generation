@@ -1,3 +1,9 @@
+.header-button {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
 .header-button-style {
   width: 96.84px;
   height: 31.35px;
@@ -6,10 +12,25 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 0;
   cursor: pointer;
   &:hover {
     background: #97765d;
   }
+}
+
+.moder-inerior-button {
+  margin-top: 30px;
+  width: 149.06px;
+  height: 47.36px;
+  background: #37806b;
+  border-radius: 20px 0px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0;
 }

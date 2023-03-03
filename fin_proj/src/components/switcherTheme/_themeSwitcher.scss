@@ -1,0 +1,44 @@
+.button-theme-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 2s ease;
+  animation: rotate 4s linear infinite;
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+  }
+  &:hover {
+    transform: scale(1.3);    
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
+// .app__container {
+//   background-color: var(--background-color);
+//   transition: background-color 200ms linear;
+// }
+
+// .app__logo {
+//   color: var(--icon-color);
+//   transition: color 500ms linear;
+// }
+
+// .app__button,
+// .app__button:hover,
+// .app__button:focus,
+// .app__button:active,
+// .app__button:not(:disabled):not(.disabled):active {
+//   color: var(--button-text-color);
+//   background-color: var(--button-background-color);
+//   border-color: var(--button-border-color);
+//   transition: color 500ms linear, background-color 500ms linear,
+//     border-color 500ms linear;
+// }

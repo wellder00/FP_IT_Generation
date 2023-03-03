@@ -1,7 +1,15 @@
 import React from 'react';
-import { ButtonFunc } from '..';
+import {ButtonFunc, ScrollProgressBar, useTheme } from '../index';
 
-function Header(props) {
+function Header() {
+  const { theme, setTheme } = useTheme();
+
+  const handleLightThemeClick = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else setTheme('light');
+  };
+
   return (
     <header className="header">
       <div className="header-wrapper">
@@ -9,7 +17,7 @@ function Header(props) {
           <img src="/src/img/logo.svg" alt="logo" />
         </div>
         <nav className="header-nav">
-          <ul className='header-nav__list'>
+          <ul className="header-nav__list">
             <li>HOME</li>
             <li>PROJECT</li>
             <li>SERVICES</li>
@@ -20,9 +28,14 @@ function Header(props) {
           </ul>
         </nav>
         <div className="header-button">
-          <ButtonFunc class = 'header-button-style'>Sign Up</ButtonFunc>
+          <ButtonFunc class="header-button-style">Sign Up</ButtonFunc>
+          <div  variant="secondary" onClick={handleLightThemeClick}>
+            {theme === 'light' && <div className='button-theme-icon'><img src="/src/icon/sun.png" alt="" /></div>}
+            {theme === 'dark' && <div className='button-theme-icon'><img src="/src/icon/moon.png" alt="" /></div>}
+          </div>
         </div>
       </div>
+      <ScrollProgressBar />
     </header>
   );
 }

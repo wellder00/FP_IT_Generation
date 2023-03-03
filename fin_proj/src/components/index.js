@@ -1,2 +1,5 @@
 export {default as ButtonFunc} from "./button/ButtonFunc"
 export {default as Header} from "./header/Header"
+export {default as ScrollProgressBar} from "./header/ProgressBar"
+export {default as useTheme} from "./switcherTheme/useTheme"
+export {default as ModerInerior} from "./modernInterior/ModerInerior"
