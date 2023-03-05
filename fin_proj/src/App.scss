@@ -7,15 +7,18 @@
 @import './components/button/button';
 @import './components/switcherTheme/themeSwitcher';
 @import './components/modernInterior/moderInerior';
+@import './components/whatWeDo/whatWeDo';
 
 body {
   height: 100vh;
   @include Open-Sans-Bold;
   background-color: var(--background-color);  
   transition: background-color 300ms linear;
+  
 }
 
 ._container {
-  max-width: 1624px;
+  max-width: 1560px;
   margin: 0px auto;  
+  
 }

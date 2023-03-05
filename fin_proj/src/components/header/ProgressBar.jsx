@@ -30,9 +30,11 @@ const ProgressBar = () => {
   };
 
   return (
+    <div className="_container-progress-bar">
     <div className="progress-bar-container">
       <div className='scrollPosition'>{scrollPosition}</div>
       <div className="progress-bar" style={{ width: `${calculateScrollPercentage()}%` }}></div>
+    </div>
     </div>
   );
 };

@@ -1,11 +1,14 @@
 import './App.scss';
- import { Header, ModerInerior } from './components';
+ import { Header, ModerInerior, ScrollProgressBar, WhatWeDo } from './components';
 
 function App() {
   return (
     <>
       <Header/>
+      <ScrollProgressBar />
       <ModerInerior/>
+      <WhatWeDo/>
+   
     </>
   );
 }

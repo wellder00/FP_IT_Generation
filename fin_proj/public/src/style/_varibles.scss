@@ -14,8 +14,15 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-  letter-spacing: -0.01em;  
-  
+  letter-spacing: -0.01em;
+}
+
+@mixin title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 78px;
 }
 
 @mixin description {
@@ -23,31 +30,39 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;  
+  line-height: 30px;
+}
+
+@mixin card-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+@mixin card-description {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
 }
 
 html[data-theme='dark'] {
   --button-text-color: #ffffff;
-  --button-background-color: #4e005c;
-  --button-border-color: #ba8fc2;
-
-  
-
-
-  --description-color: #ffffff;
+  --bg-card-color: #3c463ba6; 
   --title-color: #ffffff;
+  --description-color: #ffffff;
   --pre-title-color: #ffffff;
   --background-color: #000000da;
 }
 
 html[data-theme='light'] {
   --button-text-color: rgba(17, 17, 17, 1);
-  --button-background-color: #f9d4ff;
-  --button-border-color: #4e005c;
-
-
- 
+  --bg-card-color: #ffffff;
+  --description-color: #646464;
   --title-color: #212121;
   --pre-title-color: #646464;
-  --background-color: #ffffff;  
+  --background-color: #ffffff;
 }

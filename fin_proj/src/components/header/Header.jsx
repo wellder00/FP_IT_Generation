@@ -1,5 +1,5 @@
-import React from 'react';
-import {ButtonFunc, ScrollProgressBar, useTheme } from '../index';
+
+import {ButtonFunc, useTheme } from '../index';
 
 function Header() {
   const { theme, setTheme } = useTheme();
@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="header-wrapper">
+      <div className="header-wrapper _container">
         <div className="header-logo">
           <img src="/src/img/logo.svg" alt="logo" />
         </div>
@@ -35,7 +35,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <ScrollProgressBar />
+      
     </header>
   );
 }
