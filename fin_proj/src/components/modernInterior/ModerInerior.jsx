@@ -22,6 +22,9 @@ function ModerInerior() {
           <div></div>
         </div>
       </div>
+      <div className="moder-inerior__fone">
+        <img src="/src/img/fone1.png" alt="fone" />
+      </div>
     </div>
   );
 }

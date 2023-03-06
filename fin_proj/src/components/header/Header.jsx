@@ -1,5 +1,5 @@
-
-import {ButtonFunc, useTheme } from '../index';
+import { Link } from 'react-scroll';
+import { ButtonFunc, useTheme } from '../index';
 
 function Header() {
   const { theme, setTheme } = useTheme();
@@ -18,24 +18,45 @@ function Header() {
         </div>
         <nav className="header-nav">
           <ul className="header-nav__list">
-            <li>HOME</li>
-            <li>PROJECT</li>
-            <li>SERVICES</li>
-            <li>ABOUT</li>
-            <li>BLOG</li>
-            <li>SHOP</li>
-            <li>CONTACT</li>
+            <Link className="header__link" to="aboutUs" smooth={true}>
+              HOME
+            </Link>
+            <Link className="header__link" to="aboutUs" smooth={true}>
+              PROJECT
+            </Link>
+            <Link className="header__link" to="aboutUs" smooth={true}>
+              SERVICES
+            </Link>
+            <Link className="header__link" to="aboutUs" smooth={true}>
+              ABOUT
+            </Link>
+            <Link className="header__link" to="aboutUs" smooth={true}>
+              BLOG
+            </Link>
+            <Link className="header__link" to="aboutUs" smooth={true}>
+              SHOP
+            </Link>
+            <Link className="header__link" to="aboutUs" smooth={true}>
+              CONTACT
+            </Link>
           </ul>
         </nav>
         <div className="header-button">
           <ButtonFunc class="header-button-style">Sign Up</ButtonFunc>
-          <div  variant="secondary" onClick={handleLightThemeClick}>
-            {theme === 'light' && <div className='button-theme-icon'><img src="/src/icon/sun.png" alt="" /></div>}
-            {theme === 'dark' && <div className='button-theme-icon'><img src="/src/icon/moon.png" alt="" /></div>}
+          <div variant="secondary" onClick={handleLightThemeClick}>
+            {theme === 'light' && (
+              <div className="button-theme-icon">
+                <img src="/src/icon/sun.png" alt="" />
+              </div>
+            )}
+            {theme === 'dark' && (
+              <div className="button-theme-icon">
+                <img src="/src/icon/moon.png" alt="" />
+              </div>
+            )}
           </div>
         </div>
       </div>
-      
     </header>
   );
 }

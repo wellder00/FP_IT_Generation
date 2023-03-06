@@ -1,0 +1,27 @@
+.testimonials__wrapper {
+  section {
+    margin-top: 100px;
+    text-align: center;
+    @include pre-title;
+    color: var(--pre-title-color);
+  }
+  h2 {
+    text-align: center;
+    @include title;
+    color: var(--title-color);
+    margin-bottom: 99px;
+  }
+}
+
+.testimonials{
+  height: 50vh;
+}
+
+.swiper-wrap{
+  position: relative;
+  width: 1400px;
+  height: 270px;
+  &:nth-child(odd){
+    padding-top: 50px;   
+  }
+}

@@ -1,5 +1,7 @@
 .what-we-do {
   margin-top: 280px;
+  position: relative;
+  margin-bottom: 471px;
 }
 
 .pre-title {
@@ -99,4 +101,10 @@
 .card_description-wh {
   @include card-description;
   color: var(--description-color);
+}
+
+.what-we-do__fone-img {
+  position: absolute;
+  top: 105%;
+  right: 0;
 }

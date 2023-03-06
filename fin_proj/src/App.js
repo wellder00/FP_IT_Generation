@@ -1,5 +1,5 @@
 import './App.scss';
- import { Header, ModerInerior, ScrollProgressBar, WhatWeDo } from './components';
+ import { Header, ModerInerior, ScrollProgressBar, WhatWeDo, AboutUs, SeccessfulyDone, Testimonials } from './components';
 
 function App() {
   return (
@@ -8,7 +8,9 @@ function App() {
       <ScrollProgressBar />
       <ModerInerior/>
       <WhatWeDo/>
-   
+      <AboutUs/>   
+      <SeccessfulyDone/>   
+      <Testimonials/>   
     </>
   );
 }

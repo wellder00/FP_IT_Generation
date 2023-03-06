@@ -1,6 +1,6 @@
 .moder-inerior {
-  margin-top: 140px;
-  padding: 0 15px;
+  position: relative;
+  margin-top: 140px;  
 }
 
 .moder-inerior__wrapper {
@@ -63,3 +63,7 @@
   }  
 }
 
+.moder-inerior__fone {
+  position: absolute;
+  top: 110%;
+}

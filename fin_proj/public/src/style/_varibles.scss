@@ -52,17 +52,21 @@
 html[data-theme='dark'] {
   --button-text-color: #ffffff;
   --bg-card-color: #3c463ba6; 
+  --seccessfulyDone: #3c463b; 
   --title-color: #ffffff;
   --description-color: #ffffff;
   --pre-title-color: #ffffff;
   --background-color: #000000da;
+  --seccessfulyDone-bg: #201616da;
 }
 
 html[data-theme='light'] {
   --button-text-color: rgba(17, 17, 17, 1);
   --bg-card-color: #ffffff;
+  --seccessfulyDone: #ffffff;
   --description-color: #646464;
   --title-color: #212121;
   --pre-title-color: #646464;
   --background-color: #ffffff;
+  --seccessfulyDone-bg: #f8f8f8;
 }

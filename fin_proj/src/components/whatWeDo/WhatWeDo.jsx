@@ -40,15 +40,15 @@ function WhatWeDo() {
     }
   };
 
-  var json = [
+  let json = [
     {
       id: 618,
-      interior_design: [
+      'interior_design': [
         {
-          src: '/src/icon/wwd1.png',
-          title:
+          'src': '/src/icon/wwd1.png',
+          'title':
             'Interior Design 1 Interior Design 1Interior Design 1Interior Design 1Interior Design 1Interior Design 1Interior Design 1',
-          description: `Lorem ipsum dolor amet consectetur
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
@@ -71,9 +71,9 @@ function WhatWeDo() {
                       incididunt ut labore.`,
         },
         {
-          src: '/src/icon/wwd1.png',
-          title: 'Interior Design 2',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd1.png',
+          'title': 'Interior Design 2',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
@@ -88,9 +88,9 @@ function WhatWeDo() {
                       incididunt ut labore.`,
         },
         {
-          src: '/src/icon/wwd1.png',
-          title: 'Interior Design 3',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd1.png',
+          'title': 'Interior Design 3',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
@@ -107,9 +107,9 @@ function WhatWeDo() {
                       incididunt ut labore.`,
         },
         {
-          src: '/src/icon/wwd1.png',
-          title: 'Interior Design 4',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd1.png',
+          'title': 'Interior Design 4',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
@@ -124,9 +124,9 @@ function WhatWeDo() {
                       incididunt ut labore.`,
         },
         {
-          src: '/src/icon/wwd1.png',
-          title: 'Interior Design 5',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd1.png',
+          'title': 'Interior Design 5',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
@@ -141,12 +141,12 @@ function WhatWeDo() {
       ],
     },
     {
-      id: 619,
-      architecture: [
+      'id': 619,
+      'architecture': [
         {
-          src: '/src/icon/wwd2.png',
-          title: 'Architecture 1',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd2.png',
+          'title': 'Architecture 1',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       Lorem ipsum dolor amet consectetur
                       Lorem ipsum dolor amet consectetur
@@ -157,16 +157,16 @@ function WhatWeDo() {
                       Lorem ipsum dolor amet consectetur`,
         },
         {
-          src: '/src/icon/wwd2.png',
-          title: 'Architecture 2',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd2.png',
+          'title': 'Architecture 2',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.`,
         },
         {
-          src: '/src/icon/wwd2.png',
-          title: 'Architecture 3',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd2.png',
+          'title': 'Architecture 3',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
@@ -183,18 +183,18 @@ function WhatWeDo() {
                       Lorem ipsum dolor amet consectetur`,
         },
         {
-          src: '/src/icon/wwd2.png',
-          title: 'Architecture 4',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd2.png',
+          'title': 'Architecture 4',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       Lorem ipsum dolor amet consectetur`,
         },
         {
-          src: '/src/icon/wwd2.png',
-          title: 'Architecture 5',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd2.png',
+          'title': 'Architecture 5',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.`,
         },
@@ -202,19 +202,19 @@ function WhatWeDo() {
     },
 
     {
-      id: 620,
-      planning: [
+      'id': 620,
+      'planning': [
         {
-          src: '/src/icon/wwd3.png',
-          title: 'Planning 1',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd3.png',
+          'title': 'Planning 1',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.`,
         },
         {
-          src: '/src/icon/wwd3.png',
-          title: 'Planning 2',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd3.png',
+          'title': 'Planning 2',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
@@ -225,23 +225,23 @@ function WhatWeDo() {
                       incididunt ut labore.`,
         },
         {
-          src: '/src/icon/wwd3.png',
-          title: 'Planning 3',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd3.png',
+          'title': 'Planning 3',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.`,
         },
         {
-          src: '/src/icon/wwd3.png',
-          title: 'Planning 4',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd3.png',
+          'title': 'Planning 4',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.`,
         },
         {
-          src: '/src/icon/wwd3.png',
-          title: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, maxime.',
-          description: `Lorem ipsum dolor amet consectetur
+          'src': '/src/icon/wwd3.png',
+          'title': 'Planning 5',
+          'description': `Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore. Lorem ipsum dolor amet consectetur
                       adipiscing elit sed eiusmod tempor
@@ -249,9 +249,34 @@ function WhatWeDo() {
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore.`,
         },
+        {
+          'src': '/src/icon/wwd3.png',
+          'title': 'Planning 6',
+          'description': `Lorem ipsum dolor amet consectetur`,
+        },
+        {
+          'src': '/src/icon/wwd3.png',
+          'title': 'Planning 7',
+          'description': `Lorem ipsum dolor amet consectetur
+                      adipiscing elit sed eiusmod tempor`,
+        },
+        {
+          'src': '/src/icon/wwd3.png',
+          'title': 'Planning 8',
+          'description': `Lorem ipsum dolor amet consectetur
+                      adipiscing elit sed eiusmod tempor
+                      incididunt ut labore. Lorem ipsum dolor amet consectetur`,
+        },
       ],
     },
   ];
+  
+  let lastItems = json.map(function (item) {
+    let key = Object.keys(item)[1];
+    let values = item[key];
+    let lastItem = values[values.length - 1];
+    return lastItem;
+  });
 
   return (
     <div className="what-we-do">
@@ -286,15 +311,84 @@ function WhatWeDo() {
             </ButtonFunc>
           </div>
         </div>
+        {count1 === 0 &&
+         count2 === 0 &&
+         count3 === 0 &&
+         count4 === 0 && (
+          <div className="what-we-do__cards-block-wh">
+            {
+              <>
+                <div className="what-we-do__card-wh">
+                  <div className="card-img-wh">
+                    <img src={lastItems[0].src} alt="value.src" />
+                  </div>
+                  <div className="card-block-right-wh">
+                    <div className="card_title-wh">{lastItems[0].title}</div>
+                    <div className="card_description-wh">{lastItems[0].description}</div>
+                  </div>
+                </div>
 
-        {/*{json.map((item) => {
-          const keys = Object.keys(item);
-          const lastKey = keys[keys.length - 1];
-          const lastArray = item[lastKey];
-          const lastEl = lastArray[lastArray.length - 1];
-          console.log(lastEl);          
-        })}*/}
+                <div className="what-we-do__card">
+                  <div className="card-img">
+                    <img src={lastItems[1].src} alt="value.src" />
+                  </div>
+                  <div className="card-block-right">
+                    <div className="card_title">{lastItems[1].title}</div>
+                    <div className="card_description">{lastItems[1].description}</div>
+                  </div>
+                </div>
 
+                <div className="what-we-do__card-wh">
+                  <div className="card-img-wh">
+                    <img src={lastItems[2].src} alt="value.src" />
+                  </div>
+                  <div className="card-block-right-wh">
+                    <div className="card_title-wh">{lastItems[2].title}</div>
+                    <div className="card_description-wh">{lastItems[2].description}</div>
+                  </div>
+                </div>
+              </>
+            }
+          </div>
+        )}
+
+        {count1 > 0 && (
+          <div className="what-we-do__cards-block-wh">
+            {
+              <>
+                <div className="what-we-do__card-wh">
+                  <div className="card-img-wh">
+                    <img src={lastItems[0].src} alt="value.src" />
+                  </div>
+                  <div className="card-block-right-wh">
+                    <div className="card_title-wh">{lastItems[0].title}</div>
+                    <div className="card_description-wh">{lastItems[0].description}</div>
+                  </div>
+                </div>
+
+                <div className="what-we-do__card">
+                  <div className="card-img">
+                    <img src={lastItems[1].src} alt="value.src" />
+                  </div>
+                  <div className="card-block-right">
+                    <div className="card_title">{lastItems[1].title}</div>
+                    <div className="card_description">{lastItems[1].description}</div>
+                  </div>
+                </div>
+
+                <div className="what-we-do__card-wh">
+                  <div className="card-img-wh">
+                    <img src={lastItems[2].src} alt="value.src" />
+                  </div>
+                  <div className="card-block-right-wh">
+                    <div className="card_title-wh">{lastItems[2].title}</div>
+                    <div className="card_description-wh">{lastItems[2].description}</div>
+                  </div>
+                </div>
+              </>
+            }
+          </div>
+        )}
         {count2 > 0 && (
           <div className="what-we-do__cards-block-wh">
             {json
@@ -305,7 +399,7 @@ function WhatWeDo() {
                   return (
                     <div key={`${value}_${index}`} className="what-we-do__card-wh">
                       <div className="card-img-wh">
-                        <img src={value.src} alt="" />
+                        <img src={value.src} alt="value.src" />
                       </div>
                       <div className="card-block-right-wh">
                         <div className="card_title-wh">{value.title}</div>
@@ -328,7 +422,7 @@ function WhatWeDo() {
                   return (
                     <div key={`${value}_${index}`} className="what-we-do__card">
                       <div className="card-img">
-                        <img src={value.src} alt="" />
+                        <img src={value.src} alt="value.src" />
                       </div>
                       <div className="card-block-right">
                         <div className="card_title">{value.title}</div>
@@ -351,7 +445,7 @@ function WhatWeDo() {
                   return (
                     <div key={`${value}_${index}`} className="what-we-do__card-wh">
                       <div className="card-img-wh">
-                        <img src={value.src} alt="" />
+                        <img src={value.src} alt="value.src" />
                       </div>
                       <div className="card-block-right-wh">
                         <div className="card_title-wh">{value.title}</div>
@@ -364,6 +458,9 @@ function WhatWeDo() {
               })}
           </div>
         )}
+      </div>
+      <div className="what-we-do__fone-img">
+        <img src="/src/img/fone2.png" alt="" />
       </div>
     </div>
   );
