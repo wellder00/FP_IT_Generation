@@ -4,7 +4,7 @@ import { useLayoutEffect, useState } from 'react'
 
 const isDarkTheme = (new Date()).getHours();
 console.log(isDarkTheme);
-const defaultTheme = isDarkTheme >= 6 && isDarkTheme <= 21 ?  'light' : 'dark'; 
+const defaultTheme = isDarkTheme > 6 && isDarkTheme < 21 ?  'light' : 'dark'; 
 
  function useTheme() {
   const [theme, setTheme] = useState(

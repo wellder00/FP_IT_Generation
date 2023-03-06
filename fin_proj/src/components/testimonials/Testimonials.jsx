@@ -64,10 +64,10 @@ function Testimonials(props) {
         <h2>Client says about us</h2>
         <div className="testimonials__cards-block">
           <div className="button_block">
-            <button class="prev_button">
+            <button className="prev_button">
               <img src="/src/icon/vd.svg" alt="vector" />
             </button>
-            <button class="next_button">
+            <button className="next_button">
               <img src="/src/icon/vd.svg" alt="vector" />
             </button>
           </div>

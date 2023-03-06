@@ -30,7 +30,7 @@ function Header() {
             <Link className="header__link" to="aboutUs" smooth={true}>
               ABOUT
             </Link>
-            <Link className="header__link" to="aboutUs" smooth={true}>
+            <Link className="header__link" to="blog" smooth={true}>
               BLOG
             </Link>
             <Link className="header__link" to="aboutUs" smooth={true}>
