@@ -1,5 +1,5 @@
 import './App.scss';
- import { Header, ModerInerior, ScrollProgressBar, WhatWeDo, AboutUs, SeccessfulyDone, Testimonials, Blog } from './components';
+ import { Header, ModerInerior, ScrollProgressBar, WhatWeDo, AboutUs, SeccessfulyDone, Testimonials, Blog, Form } from './components';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <SeccessfulyDone/>   
       <Testimonials/>   
       <Blog/>   
+      <Form/>   
     </>
   );
 }
