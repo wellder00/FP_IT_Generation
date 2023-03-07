@@ -23,7 +23,7 @@ function Form() {
   };
 
   return (
-    <div className="form">
+    <div id='form' className="form">
       <div className="form__wrapper _container">
         <h2>DON’T FORGET TO SIGN UP</h2>
         <section></section>
@@ -41,6 +41,7 @@ function Form() {
                 })}
                 className={!errors?.firstName ? 'form__input' : 'form__input__error'}
                 type="text"
+                placeholder = 'Enter your name.....'
               />
 
               <div className="form__errors">
@@ -56,6 +57,7 @@ function Form() {
                 })}
                 className={!errors?.surName ? 'form__input' : 'form__input__error'}
                 type="text"
+                placeholder = 'Enter your surname.....'
               />
               <div className="form__errors">
                 {errors?.surName && <p>{errors?.surName?.message || 'Error!'}</p>}
@@ -71,6 +73,7 @@ function Form() {
             })}
             className={errors?.email ? 'form__input_email__error' : 'form__input_email'}
             type="text"
+            placeholder = 'Enter your e-mail.....'
           />
           <div className="form__errors">
             {errors?.email && <p>{errors?.email?.message || 'Error!'}</p>}

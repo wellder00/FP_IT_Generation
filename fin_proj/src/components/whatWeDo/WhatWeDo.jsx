@@ -267,6 +267,7 @@ function WhatWeDo() {
                       adipiscing elit sed eiusmod tempor
                       incididunt ut labore. Lorem ipsum dolor amet consectetur`,
         },
+        
       ],
     },
   ];
@@ -279,7 +280,7 @@ function WhatWeDo() {
   });
 
   return (
-    <div className="what-we-do">
+    <div id='services' className="what-we-do">
       <div className="what-we-do__wrapper _container">
         <div className="what-we-do__wrap">
           <div className="pre-title">WHAT WE DO</div>

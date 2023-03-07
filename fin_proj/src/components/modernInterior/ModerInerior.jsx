@@ -2,7 +2,7 @@ import { ButtonFunc } from '../index';
 
 function ModerInerior() {
   return (
-    <div className="moder-inerior">
+    <div id = 'home' className="moder-inerior">
       <div className="moder-inerior__wrapper _container">
         <div className="moder-inerior__left-section">
           <span>MODERN INTERIOR</span>

@@ -28,6 +28,7 @@ const animation1 = {
 function SeccessfulyDone() {
   return (
     <motion.div
+    id='seccessfulyDone'
     initial = 'hidden'
     whileInView= 'visible'
     viewport={{amount: 0.2}}

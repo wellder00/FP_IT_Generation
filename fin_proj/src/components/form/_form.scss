@@ -26,7 +26,7 @@
   div {
     display: flex;
     justify-content: center;
-    gap: 7%;
+    gap: 7%;    
     margin-bottom: 28px;
   }
  
@@ -40,7 +40,8 @@
   border-radius: 20px 0px;
   padding: 5px 25px; 
   border: 0;
-  outline:none;
+  outline:none;  
+  
 }
 
 .form__input__error{
@@ -57,6 +58,7 @@
 }
 
 .form__input_email {  
+  
   box-sizing: border-box;
   width: 50%;
   min-width: 450px;
@@ -124,4 +126,14 @@
   p {
   color: red;
   }
+}
+
+input::placeholder {  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 55px;
+  text-align: center;
+  color: #646464;
 }
