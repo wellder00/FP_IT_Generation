@@ -22,6 +22,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @include _1170 {
+  flex-wrap: wrap;
+  }
 }
 
 .blog__left-section {
@@ -72,6 +75,9 @@
   width: 609.86px;
   height: auto;
   transition: 0.2s;
+  @include _1170 {
+    margin-top: 50px;
+    }
   div {
     position: relative;
     width: 554px;

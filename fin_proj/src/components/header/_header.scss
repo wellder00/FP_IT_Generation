@@ -1,12 +1,12 @@
 .header {
-  margin-top: 102px; 
+  margin-top: 102px;
   padding: 0 15px;
   @include _1170 {
-  margin-top: 50px;
+    margin-top: 50px;
   }
 
   @include _979 {
-    margin-top: 0px;
+    margin-top: 10px;
   }
 }
 
@@ -19,12 +19,12 @@
   margin-bottom: 30px;
 }
 
-.header-logo{
-  cursor: pointer;  
+.header-logo {
+  cursor: pointer;
   @include _768 {
-   align-self: flex-start;
-   margin-top: 50px;
-   width: 10px;
+    align-self: flex-start;
+    margin-top: 50px;
+    width: 180px;
   }
 }
 
@@ -42,18 +42,19 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    }
-    @include _1170 {     
-      gap: 40px;
-    }
-    @include _979 {     
-      gap: 15px;
-    }
+  }
+  @include _1170 {
+    gap: 40px;
+    font-size: 20px;
+  }
+  @include _979 {
+    gap: 15px;
+  }
   .header__link {
-      padding: 6px 12px;
-      border: 5px solid rgba(0, 0, 0, 0);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
-      border-radius: 20px;
+    padding: 6px 12px;
+    border: 5px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+    border-radius: 20px;
     cursor: pointer;
     &:hover {
       box-sizing: border-box;
@@ -65,22 +66,20 @@
   }
 }
 
-._container-progress-bar{
+._container-progress-bar {
   position: sticky;
   top: 0px;
   max-width: 99%;
-  margin: 0px auto;  
+  margin: 0px auto;
   z-index: 900;
   margin-top: 50px;
 }
 .progress-bar-container {
-
   width: 100%;
   height: 8px;
   background-color: #ddd;
   border-radius: 5px;
   z-index: 9999;
-  
 }
 
 .progress-bar {
@@ -94,4 +93,48 @@
   display: none;
 }
 
+.header-button-style {
+  @include _1170 {
+    display: none;
+  }
+}
 
+.header__theame {
+  @include _1170 {
+    display: none;
+  }
+}
+
+.header__logo-theame {
+  display: none;
+  @include _1170 {
+    margin-top: 20px;
+    display: block;    
+  }
+}
+
+.header-buttonlogo-style {
+  display: none;
+  @include _1170 {
+    margin-top: 20px;
+    display: block;
+    width: 150px;
+    height: 31.35px;
+    background: #caa892;
+    border-radius: 15px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    &:hover {
+      background: #97765d;
+    }
+  }
+}
+
+.header-button__logo{
+  display: flex;
+  flex-direction: column;
+}

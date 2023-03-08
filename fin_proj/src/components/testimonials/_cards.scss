@@ -3,6 +3,16 @@
   justify-content: flex-end;
   width: 650px;
   height: 226px;
+  @include _768 {
+    width: 450px;
+    height: 326px;
+    padding-left: 50px;
+  }
+  @include _600 {
+    width: 350px;
+    height: 626px;
+    padding-left: 50px;
+  }
 }
 
 .testimonials__wrapper {
@@ -17,6 +27,7 @@
   background: var(--bg-card-color);
   box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
   border-radius: 70px 0px;
+
   div {
     img {
       position: relative;
@@ -87,13 +98,11 @@
       background: #37806b;
       box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
     }
-
   }
 }
 
-.next_button{
+.next_button {
   img {
-    transform: rotate(180deg);    
-    
+    transform: rotate(180deg);
   }
 }

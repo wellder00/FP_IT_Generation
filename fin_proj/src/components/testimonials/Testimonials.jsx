@@ -73,10 +73,25 @@ function Testimonials(props) {
           </div>
           <Swiper
             className="swiper-wrap"
+           
+            breakpoints={{            
+             0: {                
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+              },
+              1280: {                
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+              },
+              1281: {                
+                slidesPerView: 2,
+                slidesPerGroup: 2,
+              },
+            }}
+
+
             modules={[Navigation]}
-            spaceBetween={0}
-            slidesPerView={2}
-            slidesPerGroup ={2}
+            spaceBetween={0}         
             speed = {1000}
             loop={true}
             navigation={{

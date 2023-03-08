@@ -2,20 +2,21 @@ import { RiFacebookFill, RiInstagramLine, RiTwitterFill, RiLinkedinFill } from '
 import { Link } from 'react-scroll';
 
 function Footer() {
-
-  let data = (new Date()).getFullYear();
- 
+  let data = new Date().getFullYear();
 
   return (
-    <div id='footer' className="footer">
+    <div id="footer" className="footer">
       <div className="footer__wrapper _container">
         <div className="footer__logo-section">
-        <Link className="header__link" to="home" smooth={true} offset = {-300} duration = {1400}>
-          <div  className="header-logo">
-            <img src="/src/img/logo.svg" alt="logo" />
-          </div>
+          <Link className="header__link" to="home" smooth={true} offset={-300} duration={1400}>
+            <div className="header-logo">
+              <img src="/src/img/logo.svg" alt="logo" />
+            </div>
           </Link>
-          <p>But i must explain to you all this mistaken <br/>idea of dencouncing pleasure.</p>
+          <p>
+            But i must explain to you all this mistaken <br />
+            idea of dencouncing pleasure.
+          </p>
         </div>
 
         <ul className="footer__link-section">
@@ -46,22 +47,63 @@ function Footer() {
           <p>Follow Us</p>
           <div className="icon-block">
             <div>
-            <a href="https://uk-ua.facebook.com/" target="_blank" rel="noreferrer"> < RiFacebookFill /></a>              
+              <a href="https://uk-ua.facebook.com/" target="_blank" rel="noreferrer">
+                {' '}
+                <RiFacebookFill />
+              </a>
             </div>
             <div>
-            <a href="https://twitter.com/" target="_blank" rel="noreferrer"> <RiTwitterFill /></a>  
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+                {' '}
+                <RiTwitterFill />
+              </a>
             </div>
             <div>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"> <RiInstagramLine /></a>  
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                {' '}
+                <RiInstagramLine />
+              </a>
             </div>
             <div>
-            <a href="https://ua.linkedin.com/" target="_blank" rel="noreferrer"> <RiLinkedinFill /></a>  
-            </div>            
+              <a href="https://ua.linkedin.com/" target="_blank" rel="noreferrer">
+                {' '}
+                <RiLinkedinFill />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="footer__follow-us-visible">
+        <p>Follow Us</p>
+        <div className="icon-block">
+          <div>
+            <a href="https://uk-ua.facebook.com/" target="_blank" rel="noreferrer">
+              {' '}
+              <RiFacebookFill />
+            </a>
+          </div>
+          <div>
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+              {' '}
+              <RiTwitterFill />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+              {' '}
+              <RiInstagramLine />
+            </a>
+          </div>
+          <div>
+            <a href="https://ua.linkedin.com/" target="_blank" rel="noreferrer">
+              {' '}
+              <RiLinkedinFill />
+            </a>
           </div>
         </div>
       </div>
       <div className="footer__line"></div>
-      <span className='copyrightin'>Copyright @ {data} Brandoxide.all right reserved.</span>
+      <span className="copyrightin">Copyright @ {data} Brandoxide.all right reserved.</span>
     </div>
   );
 }
