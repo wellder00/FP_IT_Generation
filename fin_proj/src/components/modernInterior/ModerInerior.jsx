@@ -1,8 +1,9 @@
 import { ButtonFunc } from '../index';
+import { Link } from 'react-scroll';
 
 function ModerInerior() {
   return (
-    <div id = 'home' className="moder-inerior">
+    <div id="home" className="moder-inerior">
       <div className="moder-inerior__wrapper _container">
         <div className="moder-inerior__left-section">
           <span>MODERN INTERIOR</span>
@@ -13,7 +14,9 @@ function ModerInerior() {
             exercitation.
           </div>
           <section>
-            <ButtonFunc class="moder-inerior-button">CONTACT</ButtonFunc>
+            <Link to="footer" smooth={true} duration={2500}>
+              <ButtonFunc class="moder-inerior-button">CONTACT</ButtonFunc>
+            </Link>
           </section>
         </div>
 

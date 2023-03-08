@@ -1,10 +1,17 @@
 import './App.scss';
- import { Header, ModerInerior, ScrollProgressBar, WhatWeDo, AboutUs, SeccessfulyDone, Testimonials, Blog, Form, Footer } from './components';
+ import { Header, ModerInerior, ScrollProgressBar, WhatWeDo, AboutUs, 
+  SeccessfulyDone, Testimonials, Blog, Form, Footer, 
+  // Timer
+  //  Loader 
+  } from './components';
 
 function App() {
+ 
   return (
     <>
-      <Header/>
+      {/* <Loader/> */}
+      {/* <Timer/> */}
+      <Header/>      
       <ScrollProgressBar />
       <ModerInerior/>
       <WhatWeDo/>
@@ -14,6 +21,7 @@ function App() {
       <Blog/>   
       <Form/>   
       <Footer/>   
+      
     </>
   );
 }

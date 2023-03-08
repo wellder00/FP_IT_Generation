@@ -15,6 +15,8 @@
 @import './components/blog/blog';
 @import './components/form/form';
 @import './components/footer/footer';
+@import './components/api/api';
+@import './components/loader/loader.scss';
 
 body {
   height: 100vh;
@@ -28,4 +30,5 @@ body {
   max-width: 1560px;
   margin: 0px auto;  
   padding: 0 15px;
+  overflow: hidden;
 }

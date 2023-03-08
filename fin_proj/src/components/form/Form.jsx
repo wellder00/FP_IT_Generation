@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form';
 
 function Form() {
+
   const {
     register,
     formState: { errors, isValid },
@@ -11,12 +12,14 @@ function Form() {
   });
 
   const onSubmit = (data) => {
-    if (localStorage.getItem('firstName') === data.firstName) {
+    localStorage.setItem('name', 'Vladislav')
+    if (localStorage.getItem('name') === data.firstName) {
       alert(
         `${data.firstName} привіт!!! Не було часу нормально доробити попап.
          Та  щоб ви не засмучувалися ось вам знижка на 120 %))))`,
       );
-    } else localStorage.setItem('firstName', data.firstName);
+    } else 
+    localStorage.setItem('firstName', data.firstName);
     localStorage.setItem('surName', data.surName);
     localStorage.setItem('email', data.email);
     reset();

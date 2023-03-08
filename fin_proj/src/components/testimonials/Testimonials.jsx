@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, EffectCube } from 'swiper';
+import { Navigation } from 'swiper';
 import { Cards } from '../index';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
@@ -73,7 +73,7 @@ function Testimonials(props) {
           </div>
           <Swiper
             className="swiper-wrap"
-            modules={[Navigation, EffectCube]}
+            modules={[Navigation]}
             spaceBetween={0}
             slidesPerView={2}
             slidesPerGroup ={2}
@@ -85,7 +85,7 @@ function Testimonials(props) {
             }}
             
             
-            // effect="cube"
+            
           >
              {users.map((item, index) => {
             return (

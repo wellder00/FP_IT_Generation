@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import { ButtonFunc, useTheme } from '../index';
+import { ButtonFunc, useTheme, Api } from '../index';
 
 function Header() {
   const { theme, setTheme } = useTheme();
@@ -15,7 +15,9 @@ function Header() {
       <div className="header-wrapper _container">
         <div className="header-logo">
           <img src="/src/img/logo.svg" alt="logo" />
+          <Api/>
         </div>
+        
         <nav className="header-nav">
           <ul className="header-nav__list">
             <Link className="header__link" to="home" smooth={true} offset = {-150}>
@@ -43,8 +45,9 @@ function Header() {
         </nav>
         <div className="header-button">
           <ButtonFunc class="header-button-style">Sign Up</ButtonFunc>
+         
           <div variant="secondary" onClick={handleLightThemeClick}>
-            {theme === 'light' && (
+          {theme === 'light' && (
               <div className="button-theme-icon">
                 <img src="/src/icon/sun.png" alt="" />
               </div>

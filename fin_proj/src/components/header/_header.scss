@@ -1,6 +1,13 @@
 .header {
   margin-top: 102px; 
   padding: 0 15px;
+  @include _1170 {
+  margin-top: 50px;
+  }
+
+  @include _979 {
+    margin-top: 0px;
+  }
 }
 
 .header-wrapper {
@@ -14,19 +21,34 @@
 
 .header-logo{
   cursor: pointer;  
+  @include _768 {
+   align-self: flex-start;
+   margin-top: 50px;
+   width: 10px;
+  }
 }
 
 .header-nav__list {
   display: flex;
-  gap: 4%;
+  gap: 2%;
   list-style: none;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   color: var(--button-text-color);
   transition: color 300ms linear;
-
-
+  margin-right: 70px;
+  @include _1250 {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+    @include _1170 {     
+      gap: 40px;
+    }
+    @include _979 {     
+      gap: 15px;
+    }
   .header__link {
       padding: 6px 12px;
       border: 5px solid rgba(0, 0, 0, 0);
@@ -71,3 +93,5 @@
 .scrollPosition {
   display: none;
 }
+
+
