@@ -4,3 +4,6 @@
 ```git clone git@github.com:wellder00/FP_IT_Generation.git```
 потім
 ```npm i```
+
+
+https://dec-base.netlify.app/
